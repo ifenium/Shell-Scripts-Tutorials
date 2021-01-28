@@ -17,5 +17,5 @@ To use comments in your scripts, use the `#` character before yout text.
 Since you're working with Scripts and you plan on executing them you need to make them executable and all you have to do is give the shell permission to do so using 
 the `chmod` command. 
 
-The command: ``` chmod 755 [FILENAME]``` The "755" will give us read, write, and execute permission. Everybody else will get only read and execute permission.
-To make the script private, (i.e., only we can read and execute), use "700" instead.
+The command: ``` chmod 755 [FILENAME]``` The `"755"` will give us read, write, and execute permission. Everybody else will get only read and execute permission.
+To make the script private, (i.e., only we can read and execute), use `"700"` instead.
