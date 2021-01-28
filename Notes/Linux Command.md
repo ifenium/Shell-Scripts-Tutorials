@@ -7,3 +7,5 @@ Rember that most things that can be done on the command line can be done with sc
 ## Writing Shell Scripts 
 
 You need a text editor to write your scripts, it could be from the terminal (Vim, Emacs, Nano) or a GUI text editor (VS Code, Sublime or Atom) whatever you're comfortable with maybe notepad but remeber that the file must contain ASCII text. 
+
+  The first line of your scripy is important and should begin with `#!/bin/bash`. It is a special construct, called a **shebang**, given to the system indicating what program is to be used to interpret the script. In this case, /bin/bash.
