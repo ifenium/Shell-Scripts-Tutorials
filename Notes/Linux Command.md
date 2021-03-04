@@ -19,3 +19,6 @@ the `chmod` command.
 
 The command: ``` chmod 755 [FILENAME]``` The `"755"` will give us read, write, and execute permission. Everybody else will get only read and execute permission.
 To make the script private, (i.e., only we can read and execute), use `"700"` instead.
+
+### Add directories to our ($PATH)
+The $PATH is a list of dierctories where executable files(programs) are kept and will search only those difectories for programs whenever you call one.  
