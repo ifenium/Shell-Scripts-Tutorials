@@ -13,6 +13,21 @@ You need a text editor to write your scripts, it could be from the terminal (Vim
 ### Writing Comments
 To use comments in your scripts, use the `#` character before yout text. 
 
+### Our Sample Script
+```
+#!/bin/bash
+# My first script
+echo "Hello World!"
+```
+
+### Create a file named hello_world 
+```console
+user@shell:~$ nano hello_world
+```
+
+### Running our Script
+To run your script you just createad, enter ```./hello_world``` to the command line.
+
 ### Setting Permission (Making your file executable)
 Since you're working with Scripts and you plan on executing them you need to make them executable and all you have to do is give the shell permission to do so using 
 the `chmod` command. 
@@ -28,4 +43,4 @@ A better way would be to edit our ***.bash_profile*** file to include the above 
 
 After noving our script to the ***bin*** directory, we'll be all set. Now we just have to type our script name and our script will run. 
 
-> PS:On some distributions, most notably Ubuntu (and other Debian-based distributions), we will need to open a new terminal session before our newly created bin directory will be recognized.
+> PS: On some distributions, most notably Ubuntu (and other Debian-based distributions), we will need to open a new terminal session before our newly created bin directory will be recognized.
