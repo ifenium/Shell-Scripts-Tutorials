@@ -22,3 +22,4 @@ To make the script private, (i.e., only we can read and execute), use `"700"` in
 
 ### Add directories to our ($PATH)
 The $PATH is a list of dierctories where executable files(programs) are kept and will search only those difectories for programs whenever you call one.  
+To view your current path, enter: ```echo $PATH``` in your terminal, this returns a colon sperated list of directories. We can add directories to our path with the following command, where directory is the name of the directory we want to add: ```export PATH=$PATH:directory```
