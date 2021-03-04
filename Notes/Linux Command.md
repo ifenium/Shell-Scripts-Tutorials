@@ -23,3 +23,9 @@ To make the script private, (i.e., only we can read and execute), use `"700"` in
 ### Add directories to our ($PATH)
 The $PATH is a list of dierctories where executable files(programs) are kept and will search only those difectories for programs whenever you call one.  
 To view your current path, enter: ```echo $PATH``` in your terminal, this returns a colon sperated list of directories. We can add directories to our path with the following command, where directory is the name of the directory we want to add: ```export PATH=$PATH:directory```
+
+A better way would be to edit our ***.bash_profile*** file to include the above command. That way, it would be done automatically every time we log in. To do this we need to create a bin directory if we do not have one already ```mkdir ~/bin```
+
+After noving our script to the ***bin*** directory, we'll be all set. Now we just have to type our script name and our script will run. 
+
+> PS:On some distributions, most notably Ubuntu (and other Debian-based distributions), we will need to open a new terminal session before our newly created bin directory will be recognized.
