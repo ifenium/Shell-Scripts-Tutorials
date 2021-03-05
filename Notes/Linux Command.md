@@ -22,6 +22,7 @@ echo "Hello World!"
 
 ### Create a file named hello_world 
 You can use whatever editior you are confortabke with, I prefer nano so that's what I'm going with. :)
+
 ```console
 user@shell:~$ nano hello_world
 ```
@@ -31,6 +32,7 @@ Copy the command from our Sample Script above into the terminal
 
 ### Running our Script
 To run your script you just createad, enter ```./hello_world``` to the command line.
+
 ```console
 user@shell:~$ nano hello_world
 ```
@@ -48,10 +50,26 @@ user@shell:~$ chmod 755 hello_world
 
 ### Add directories to our ($PATH)
 The $PATH is a list of dierctories where executable files(programs) are kept and will search only those difectories for programs whenever you call one.  
-To view your current path, enter: ```echo $PATH``` in your terminal, this returns a colon sperated list of directories. We can add directories to our path with the following command, where directory is the name of the directory we want to add: ```export PATH=$PATH:directory```
+To view your current path, enter: ```echo $PATH``` in your terminal,
 
+```console
+user@shell:~$ echo $PATH
+```
+this returns a colon sperated list of directories. We can add directories to our path with the following command, where directory is the name of the directory we want to add: ```export PATH=$PATH:directory```
+
+```console
+user@shell:~$ export PATH=$PATH:directory 
+```
 A better way would be to edit our ***.bash_profile*** file to include the above command. That way, it would be done automatically every time we log in. To do this we need to create a bin directory if we do not have one already ```mkdir ~/bin```
 
+```console
+user@shell:~$ mkdir ~/bin
+```
+
 After noving our script to the ***bin*** directory, we'll be all set. Now we just have to type our script name and our script will run. 
+
+```console
+user@shell:~$ hello_world
+```
 
 > PS: On some distributions, most notably Ubuntu (and other Debian-based distributions), we will need to open a new terminal session before our newly created bin directory will be recognized.
