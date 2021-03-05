@@ -21,12 +21,19 @@ echo "Hello World!"
 ```
 
 ### Create a file named hello_world 
+You can use whatever editior you are confortabke with, I prefer nano so that's what I'm going with. :)
 ```console
 user@shell:~$ nano hello_world
 ```
 
+### Adding your commands to the file `hello_world` you just created
+Copy the command from our Sample Script above into the terminal 
+
 ### Running our Script
 To run your script you just createad, enter ```./hello_world``` to the command line.
+```console
+user@shell:~$ nano hello_world
+```
 
 ### Setting Permission (Making your file executable)
 Since you're working with Scripts and you plan on executing them you need to make them executable and all you have to do is give the shell permission to do so using 
