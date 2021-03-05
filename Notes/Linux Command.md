@@ -42,6 +42,10 @@ the `chmod` command.
 The command: ``` chmod 755 [FILENAME]``` The `"755"` will give us read, write, and execute permission. Everybody else will get only read and execute permission.
 To make the script private, (i.e., only we can read and execute), use `"700"` instead.
 
+```console
+user@shell:~$ chmod 755 hello_world
+```
+
 ### Add directories to our ($PATH)
 The $PATH is a list of dierctories where executable files(programs) are kept and will search only those difectories for programs whenever you call one.  
 To view your current path, enter: ```echo $PATH``` in your terminal, this returns a colon sperated list of directories. We can add directories to our path with the following command, where directory is the name of the directory we want to add: ```export PATH=$PATH:directory```
