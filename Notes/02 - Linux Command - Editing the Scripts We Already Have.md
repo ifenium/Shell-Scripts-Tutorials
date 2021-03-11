@@ -10,4 +10,8 @@ When you log on to out system, the bash program starts and reads a series of con
 * A login shell session 
 * A non-login shell session.
 
-A loginb shell sesssion is one where you are required to provide a user name and password 
+#### Login Shell Session
+A login shell sesssion is one where you are required to provide a user name and password. 
+
+#### Non-login Shell Session 
+A non-login shell session typically occurs when we launch a terminal session in the GUI.
