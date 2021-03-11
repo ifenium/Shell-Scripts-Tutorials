@@ -9,3 +9,5 @@ Two types of commands are often contained in the environment. They are aliases a
 When you log on to out system, the bash program starts and reads a series of configuration scripts called `startup files` which define the default environment used by all users which is followed by startup files in our home directory that define our personal environment, the exact sequence depends on the type of shell session being started. There are two kinds: 
 * A login shell session 
 * A non-login shell session.
+
+A loginb shell sesssion is one where you are required to provide a user name and password 
