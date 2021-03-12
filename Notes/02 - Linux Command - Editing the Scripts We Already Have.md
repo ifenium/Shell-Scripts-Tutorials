@@ -15,3 +15,10 @@ A login shell sesssion is one where you are required to provide a user name and 
 
 #### Non-login Shell Session 
 A non-login shell session typically occurs when we launch a terminal session in the GUI.
+
+Login shells read one or more of the following files at startup
+
+* ***`/etc/profile`*** - A global configuration script that applies to all users.
+* ***`~/.bash_profile`*** - A user's personal startup file. Can be used to extend or override settings in the global configuration script.
+* ***`~/.bash_login`*** - If `~/.bash_profile` is not found, bash attempts to read this script.
+* ***`~/.profile`*** - If neither ~/.bash_profile nor ~/.bash_login is found, bash attempts to read this file. This is the default in Debian-based distributions, such as Ubuntu.
