@@ -22,3 +22,14 @@ Login shells read one or more of the following files at startup
 * ***`~/.bash_profile`*** - A user's personal startup file. Can be used to extend or override settings in the global configuration script.
 * ***`~/.bash_login`*** - If `~/.bash_profile` is not found, bash attempts to read this script.
 * ***`~/.profile`*** - If neither ~/.bash_profile nor ~/.bash_login is found, bash attempts to read this file. This is the default in Debian-based distributions, such as Ubuntu.
+
+
+Non-Login shells read one or more of the following files at startup
+
+* ***`/etc/bash.bashrc`*** - A global configuration script that applies to all users.
+* ***`~/.bashrc	***`*** - A user's personal startup file. Can be used to extend or override settings in the global configuration script.
+They also inherit the environment from their parent process, usually a login shell
+Remember,since most of the file names listed above start with a period (meaning that they are hidden), you will need to use the `-a` option when using ls.
+The ~/.bashrc file is probably the most important startup file from the ordinary user’s point of view, since it is almost always read.
+
+
