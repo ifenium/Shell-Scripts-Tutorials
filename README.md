@@ -9,3 +9,6 @@ There are two main types of Shells in linux which are:
 * C Shell 
 
 Others include Korn, Z and Scheme Shell.
+
+### Setting the PATH in scripts 
+[Setting up the PATH](https://scriptingosx.com/2018/02/setting-the-path-in-scripts/)
